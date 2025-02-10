@@ -6,7 +6,7 @@ import time
 
 t = Tk()
 t.title('Notifier')
-t.geometry("500x300")
+t.geometry("500x300") 
 img = Image.open("notify-label.png")
 tkimage = ImageTk.PhotoImage(img)
 
