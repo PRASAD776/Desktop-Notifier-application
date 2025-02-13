@@ -13,7 +13,7 @@ tkimage = ImageTk.PhotoImage(img)
 # get details
 def get_details():
     get_title = title.get()
-    get_msg = msg.get()
+    get_msg = msg.get() 
     get_time = time1.get()
     # print(get_title,get_msg, tt)
 
