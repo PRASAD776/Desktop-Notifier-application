@@ -4,7 +4,7 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 import time
 
-t = Tk()
+t = Tk() 
 t.title('Notifier')
 t.geometry("500x300") 
 img = Image.open("notify-label.png")
