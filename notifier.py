@@ -10,7 +10,7 @@ t.geometry("500x300")
 img = Image.open("notify-label.png")
 tkimage = ImageTk.PhotoImage(img)
 
-# get details
+# get details 
 def get_details():
     get_title = title.get()
     get_msg = msg.get() 
